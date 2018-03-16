@@ -4,8 +4,8 @@ class CreateCostumeStores < ActiveRecord::Migration[5.1]
   def change
     create_table :costume_stores do |type|
     type.string :name
-    type.string :location #CHECK
-    type.integer :number_of_employees #CHECK
+    type.string :location
+    type.integer :number_of_employees 
     type.integer :costume_inventory
     type.integer :num_of_employees
     type.boolean :still_in_business
