@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(version: 3) do
     t.string "name"
     t.float "price"
     t.string "size"
-    t.string "url"
+    t.string "image_url"
   end
 
   create_table "costumestores", force: :cascade do |t|
