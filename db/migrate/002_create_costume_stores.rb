@@ -6,6 +6,7 @@ class CreateCostumeStores < ActiveRecord::Migration[5.1]
     type.string :name
     type.string :location #CHECK
     type.integer :number_of_employees #CHECK
+    type.integer :costume_inventory
     in business?
     opening time?
     closing time?
