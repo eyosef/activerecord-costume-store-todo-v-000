@@ -7,7 +7,6 @@ class CreateCostumes < ActiveRecord::Migration[4.2]
     type.string :size
     type.string :image_url
     t.timestamps null: false
-
     end #do iteration
   end
 
