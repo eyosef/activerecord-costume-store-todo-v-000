@@ -9,6 +9,7 @@ class CreateCostumeStores < ActiveRecord::Migration[5.1]
     type.string :url
     type.datetime :opening_time
     type.datetime :closing_time
+    type.timestamps null: false
     end #do iteration
   end #change method
 
