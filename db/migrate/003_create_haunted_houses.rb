@@ -3,7 +3,7 @@
 class CreateHauntedHouses < ActiveRecord::Migration[5.1]
 
   def change
-      create_table :hauntedhouses do |type|
+      create_table :haunted_houses do |type|
       type.string :name
       type.string :location
       type.string :theme
