@@ -8,6 +8,7 @@ class CreateCostumeStores < ActiveRecord::Migration[5.1]
     type.integer :number_of_employees #CHECK
     type.integer :costume_inventory
     type.integer :num_of_employees
+    type.boolean :still_in_busines
 
     in business?
     opening time?
