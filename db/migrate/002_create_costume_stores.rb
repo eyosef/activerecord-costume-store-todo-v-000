@@ -2,7 +2,7 @@
 class CreateCostumeStores < ActiveRecord::Migration[5.1]
 
   def change
-    create_table :costumestores do |type|
+    create_table :costume_stores do |type|
     type.string :name
     type.float :price
     type.string :size
