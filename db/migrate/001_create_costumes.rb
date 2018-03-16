@@ -6,6 +6,7 @@ class CreateCostumes < ActiveRecord::Migration[4.2]
     type.float :price
     type.string :size
     type.string :image_url
+    type.datetime :created_at
     end #do iteration
   end
 
