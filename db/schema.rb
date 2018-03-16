@@ -10,22 +10,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2) do
+ActiveRecord::Schema.define(version: 1) do
 
   create_table "costumes", force: :cascade do |t|
     t.string "name"
     t.float "price"
     t.string "size"
     t.string "url"
-  end
-
-  create_table "costumestores", force: :cascade do |t|
-    t.string "name"
-    t.float "price"
-    t.string "size"
-    t.string "url"
-    t.datetime "opening_time"
-    t.datetime "closing_time"
   end
 
 end
