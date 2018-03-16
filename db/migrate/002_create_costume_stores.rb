@@ -4,6 +4,7 @@ class CreateCostumeStores < ActiveRecord::Migration[5.1]
   def change
     create_table :costume_stores do |type|
     type.string :name
+    type.string :location
     type.string :size
     type.string :url
     type.datetime :opening_time
